@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T01:51:56.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="21.0.10" etag="0znKoqgrMrScHStrj2Po" type="github"><diagram name="第 1 页" id="9O_02u8aznJF-No4qLWG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-23T02:52:51.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7vevAVF1tc9xbDpZs4qV" version="21.0.10" type="github">
+  <diagram name="第 1 页" id="9O_02u8aznJF-No4qLWG">
+    <mxGraphModel dx="1434" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-1" target="8IgRAbOkb4gDzAf0cuLd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-3" target="8IgRAbOkb4gDzAf0cuLd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-3" value="通过deviceId&lt;font style=&quot;font-family: 宋体; font-size: 10.5pt; background-color: initial;&quot; face=&quot;宋体&quot;&gt;调用&lt;/font&gt;&lt;font style=&quot;font-size: 10.5pt; background-color: initial;&quot; face=&quot;Calibri&quot;&gt;/auth-api/deviceInfoByDeviceId&lt;/font&gt;&lt;font style=&quot;font-family: 宋体; font-size: 10.5pt; background-color: initial;&quot; face=&quot;宋体&quot;&gt;接口返回deviceSetId&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-5" target="8IgRAbOkb4gDzAf0cuLd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-5" target="8IgRAbOkb4gDzAf0cuLd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-5" value="category_id不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/usertoken接口&lt;br&gt;category_id更新流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-7" target="8IgRAbOkb4gDzAf0cuLd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-7" value="通过category_id请求whaleLive接口，获取vod内容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-10" value="Yes&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-11" target="8IgRAbOkb4gDzAf0cuLd-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="340" />
+              <mxPoint x="750" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-11" value="使用Rec1.0的内容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-13" target="8IgRAbOkb4gDzAf0cuLd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-13" target="8IgRAbOkb4gDzAf0cuLd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-13" value="判断whalelive返回的数量是不是等于size" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-15" target="8IgRAbOkb4gDzAf0cuLd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-15" value="返回whaleLive的内容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-17" target="8IgRAbOkb4gDzAf0cuLd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-17" value="不足的内容用Rec1.0补全" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-19" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-20" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-21" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IgRAbOkb4gDzAf0cuLd-24" target="8IgRAbOkb4gDzAf0cuLd-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IgRAbOkb4gDzAf0cuLd-24" value="返回whaleLive+Rec1.0补全的内容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
